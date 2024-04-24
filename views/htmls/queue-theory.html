@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Data Structure Learning Hub</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/images/logo3.png" rel="icon">
+  <link href="/images/logo3.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+ 
+  <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="/assets/vendor/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="/assets/vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/assets/vendor/aos/aos.css">
+  <link rel="stylesheet" href="/assets/vendor/boxicons/css/boxicons.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/main/bootstrap.min.css">
+  <link rel="stylesheet" href="/main/bootstrap-icons.css">
+  <link rel="stylesheet" href="/main/glightbox.min.css">
+  <link rel="stylesheet" href="/main/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="/main/aos.css"> -->
+  <link rel="stylesheet" href="/main/boxicons.min.css">
+  <!-- Template Main CSS File -->
+  
+  <link rel="stylesheet" href="/css/stack-theory.css">
+  
+</head>
+
+<body class="services-details-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="/images/logo3.png"
+            alt="">&nbsp;DS<span>.</span></a></h1>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+
+        <ul>
+          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/htmls/stack-simulation.html">Stack</a></li>
+              <li><a href="/htmls/queue-simulation.html">Queue</a></li>
+              <li><a href="/htmls/linked-list-simulation.html">Linked List</a></li>
+            </ul>
+          </li>
+              <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="/htmls/stack-theory.html">Stack</a></li>
+                  <li><a href="/htmls/queue-theory.html">Queue</a></li>
+                  <li><a href="/htmls/linked-list-theory.html">Linked List</a></li>
+                </ul>
+              </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+
+      </label>
+      
+
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          </ol>
+      </div>
+    </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service-details Section - Services Details Page -->
+
+
+
+
+    <!-- End Services List -->
+
+
+
+
+
+
+    <section id="service-details" class="service-details">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4><b>QUEUE</b></h4>
+              <div class="services-list">
+                <a href="#queue" class="active"><i class="bi bi-arrow-right-circle"></i><span>What is A
+                    Queue</span></a>
+                <a href="#Basic" class="active"><i class="bi bi-arrow-right-circle"></i><span>Basic</span></a>
+                <a href="#types" class="active"><i class="bi bi-arrow-right-circle"></i><span>Types</span></a>
+                <a href="#implement" class="active"><i
+                    class="bi bi-arrow-right-circle"></i><span>Implentation</span></a>
+                <a href="#advantage" class="active"><i class="bi bi-arrow-right-circle"></i><span>Advantages</span></a>
+                <a href="#disadvantage" class="active"><i
+                    class="bi bi-arrow-right-circle"></i><span>Disadvantages</span></a>
+                </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="queue" id="queue">
+              <h3>QUEUE</h3>
+              <h2> <u>What is Queue?</u></h2>
+              <p>
+                A Queue is defined as a linear data structure that is open at both ends and the
+                operations are performed in First In First Out (FIFO) order. <br>
+                FIFO Principle of Queue: <br>
+                ● A Queue is like a line waiting to purchase tickets, where the first
+                person in line is the first person served. (i.e. First come first serve). <br>
+                ● Position of the entry in a queue ready to be served, that is, the first
+                entry that will be removed from the queue, is called the front of the
+                queue(sometimes, head of the queue), similarly, the position of the
+                last entry in the queue, that is, the one most recently added, is
+                called the rear (or the tail) of the queue. <br>
+              </p>
+            </div>
+            
+            <div class="Basic" id="Basic">
+              <h2> <u>Basic Operations on Queue</u></h2>
+              <p>
+                Some of the basic operations for Queue in Data Structure are: <br>
+                ● Enqueue() – Adds (or stores) an element to the end of the queue.. <br>
+                ● Dequeue() – Removal of elements from the queue. <br>
+                ● Peek() or front()- Acquires the data element available at the front
+                node of the queue without deleting it. <br>
+                ● rear() – This operation returns the element at the rear end without
+                removing it. <br>
+                ● isFull() – Validates if the queue is full. <br>
+                ● isNull() – Checks if the queue is empty. <br>
+              </p>
+
+            </div>
+            <div class="types" id="types">
+              <h2><u>Types of Queue</u></h2>
+              <p>There are different types of queues: <br>
+                ● Input Restricted Queue: This is a simple queue. In this type of
+                queue, the input can be taken from only one end but deletion can be
+                done from any of the ends. <br>
+                ● Output Restricted Queue: This is also a simple queue. In this type
+                of queue, the input can be taken from both ends but deletion can be
+                done from only one end. <br>
+                ● Circular Queue: This is a special type of queue where the last
+                position is connected back to the first position. Here also the
+                operations are performed in FIFO order. <br>
+                ● Double-Ended Queue (Dequeue): In a double-ended queue the
+                insertion and deletion operations, both can be performed from both
+                ends. To know more refer this. <br>
+                ● Priority Queue: A priority queue is a special queue where the
+                elements are accessed based on the priority assigned to them. <br>
+              </p>
+            </div>
+            <div class="implement" id="implement">
+              <h2><u>Implentation Of Queue</u></h2>
+              <p>Queues have a wide range of applications in computer science and various fields. They are used wherever
+                a first-in, first-out (FIFO) data structure is needed to manage and control the order of elements. Here
+                are some common applications of queues: <br>
+
+                ● Task Scheduling: <br> Queues are commonly used in operating systems to schedule tasks or processes for
+                execution. The CPU scheduler maintains a queue of processes, and the process that arrives first is given
+                CPU time first. <br>
+
+                ● Print Queue: <br> Printers often use queues to manage print jobs. Print requests are added to the
+                queue, and
+                they are printed in the order they were received. <br>
+
+                ● Resource Management: <br> Queues can be used to manage and allocate resources, such as allocating
+                resources
+                to different users or processes in a fair manner. <br>
+
+                ● Call Center Systems: <br> Call centers use queues to manage incoming calls. Calls are placed in a
+                queue, and
+                agents take calls from the front of the queue as they become available. <br>
+
+                ● Data Buffering: <br> Queues are used as buffers in data communication systems to store and manage data
+                packets before they are transmitted or processed. <br>
+              </p>
+            </div>
+            <div class="advantage" id="advantage">
+              <h2> <u>Advantages of Queue</u></h2>
+              <p>
+                Queues offer several advantages in computer science and various applications due to their specific
+                characteristics and behavior. Here are some of the key advantages of using queues: <br>
+
+                ● Task Prioritization: <br>Queues can be used to prioritize tasks or processes. By adjusting the order
+                in
+                which items are added to the queue, you can control the priority of processing. High-priority tasks can
+                be placed at the front of the queue, ensuring they are processed quickly. <br>
+
+                ● Simplicity: <br> Queue operations (enqueue and dequeue) are straightforward and easy to implement.
+                This
+                simplicity makes queues a versatile and widely used data structure in programming. <br>
+
+                ● Efficient Data Retrieval: <br> For FIFO-based access patterns, queues are efficient for inserting and
+                removing elements at both ends. Enqueue and dequeue operations typically have time complexities of O(1)
+                for most implementations. <br>
+
+                ● Real-World Modeling: <br> Queues are useful for modeling real-world scenarios, such as waiting lines,
+                traffic
+                flow, and customer service interactions. They provide a simple way to simulate and analyze systems <br>
+
+                ● Flow Control: <br> In systems where data is generated faster than it can be processed or transmitted,
+                queues
+                act as buffers that help control the flow of data, preventing data loss and ensuring
+                efficient processing. <br>
+              </p>
+            </div>
+            <div class="disadvantage" id="disadvantage">
+              <h2> <u>Disadvantages of Queue</u></h2>
+              <p>
+                While queues offer many advantages, they also have certain disadvantages or limitations depending on the
+                specific use case and implementation. Here are some of the disadvantages of queues: <br>
+
+                ● Fixed Size: <br> In some implementations, queues have a fixed size, which means they can only hold a
+                limited
+                number of elements. When the queue is full, attempting to enqueue additional elements can result in an
+                overflow condition, potentially causing data loss or errors. <br>
+
+                ● Inefficient Dequeue from the Middle: <br> Removing elements from the middle of a queue is an
+                inefficient
+                operation because it requires dequeuing all elements in front of the one you want to remove. This can be
+                a
+                drawback if you frequently need to remove items from positions other than the front. <br>
+
+                ● Lack of Random Access: <br> Queues are designed for sequential access, and they do not support random
+                access to
+                elements. If you need to access elements by their index or position, other data structures like arrays
+                or
+                lists may be more appropriate. <br>
+
+                ● Priority Handling: <br> While queues can prioritize tasks by controlling the order of processing, they
+                may not
+                be the most efficient data structure for scenarios requiring complex or dynamic prioritization schemes.
+                In
+                such cases, other data structures like priority queues or heaps may be more suitable. <br> </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      </div>
+      </div>
+
+
+    </section>
+    <div class="quiz" id="quiz">
+      <div id="content" class="content">
+        <p> "Quiz Time:Test Your Brainpower!"</p>
+        <a href="/htmls/queue-quiz.html">Quiz</a>
+        <a href="/htmls/queue-simulation.html">Simulation</a>
+      </div>
+  </main>
+
+  
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+
+              <h3><img src="/images/logo3.png" alt="">&nbsp;DS<span>.</span></h3>
+              <p>
+                <strong>Phone:</strong> +91 99999 88888<br>
+                <strong>Email:</strong> xyz@gmail.com<br>
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links" id="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              </ul>
+          </div>
+
+          
+        </div>
+      </div>
+
+      
+  </footer>
+  <!-- End of footer -->
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/stacktheory.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

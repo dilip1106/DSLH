@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Data Structure Learning Hub</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/images/logo3.png" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+      <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/vendor/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="/assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/vendor/aos/aos.css">
+    <link rel="stylesheet" href="/assets/vendor/boxicons/css/boxicons.min.css">
+
+    <!-- Template Main CSS File -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+    <link rel="stylesheet" href="/css/stack-theory.css">
+   </head>
+
+<body class="services-details-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+
+        <div class="container d-flex align-items-center justify-content-lg-between">
+
+            <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="/images/logo3.png"
+                        alt="">&nbsp;DS<span>.</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+
+                <ul>
+                  <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+          
+                  <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="/htmls/stack-simulation.html">Stack</a></li>
+                      <li><a href="/htmls/queue-simulation.html">Queue</a></li>
+                      <li><a href="/htmls/linked-list-simulation.html">Linked List</a></li>
+                    </ul>
+                  </li>
+                      <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                          <li><a href="/htmls/stack-theory.html">Stack</a></li>
+                          <li><a href="/htmls/queue-theory.html">Queue</a></li>
+                          <li><a href="/htmls/linked-list-theory.html">Linked List</a></li>
+                        </ul>
+                      </li>   
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+
+            </nav><!-- .navbar -->
+
+            <a href="#about" class="get-started-btn scrollto">Get Started</a>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider round"></span>
+
+            </label>
+            <!-- <button id="dark-mode-toggle">Toggle Dark Mode</button> -->
+
+
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+
+        <nav class="breadcrumbs">
+            <div class="container">
+                <ol>
+                </ol>
+            </div>
+        </nav>
+        </div><!-- End Page Title -->
+
+        
+
+
+
+
+
+        <section id="service-details" class="service-details">
+
+            <div class="container">
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="service-box">
+                            <h4><b>LINKED LIST</b></h4>
+                            <div class="services-list">
+                                <a href="#linked" class="active"><i class="bi bi-arrow-right-circle"></i><span>What is A
+                                        Linked List?</span></a>
+                                <a href="#Basic" class="active"><i
+                                        class="bi bi-arrow-right-circle"></i><span>Basic</span></a>
+                                <a href="#types" class="active"><i
+                                        class="bi bi-arrow-right-circle"></i><span>Types</span></a>
+                                <a href="#implement" class="active"><i
+                                        class="bi bi-arrow-right-circle"></i><span>Implentation</span></a>
+                                <a href="#advantage" class="active"><i
+                                        class="bi bi-arrow-right-circle"></i><span>Advantages</span></a>
+                                <a href="#disadvantage" class="active"><i
+                                        class="bi bi-arrow-right-circle"></i><span>Disadvantages</span></a>
+                                </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                        <!-- <img src="assets/img/services.jpg" alt="" class="img-fluid services-img"> -->
+                        <div class="linked" id="linked">
+                            <h3>LINKED LIST</h3>
+                            <h2> <u>What is Linked List?</u></h2>
+                            <p>
+                                In simple words, a linked list is a way to organize a list of items, like a chain of
+                                connected blocks. Each block (or node) contains both the item you want to store and a
+                                reference or link to the next block in the chain. It's a bit like a train where each car
+                                (node) is connected to the one in front of it, allowing you to go from one car to the
+                                next in a sequence. <br>
+                            </p>
+                            <p> This structure makes it easy to add or remove items in the middle of the list because
+                                you can simply change the links between the blocks. However, it's not as efficient for
+                                random access (jumping to a specific item) as some other data structures like arrays.
+                                Linked lists are commonly used in programming to create dynamic lists that can grow or
+                                shrink as needed. <br>
+                            </p>
+                        </div>
+                        
+                        <div class="Basic" id="Basic">
+                            <h2> <u>Basic Operations on Linked List</u></h2>
+                            <p>
+                                Some of the basic operations for Queue in Data Structure are: <br>
+                                ● Enqueue() – Adds (or stores) an element to the end of the queue.. <br>
+                                ● Dequeue() – Removal of elements from the queue. <br>
+                                ● Peek() or front()- Acquires the data element available at the front
+                                node of the queue without deleting it. <br>
+                                ● rear() – This operation returns the element at the rear end without
+                                removing it. <br>
+                                ● isFull() – Validates if the queue is full. <br>
+                                ● isNull() – Checks if the queue is empty. <br>
+                            </p>
+
+                        </div>
+                        <div class="types" id="types">
+                            <h2><u>Types of Linked List</u></h2>
+                            <p>There are different types of queues: <br>
+                                ● Input Restricted Queue: This is a simple queue. In this type of
+                                queue, the input can be taken from only one end but deletion can be
+                                done from any of the ends. <br>
+                                ● Output Restricted Queue: This is also a simple queue. In this type
+                                of queue, the input can be taken from both ends but deletion can be
+                                done from only one end. <br>
+                                ● Circular Queue: This is a special type of queue where the last
+                                position is connected back to the first position. Here also the
+                                operations are performed in FIFO order. <br>
+                                ● Double-Ended Queue (Dequeue): In a double-ended queue the
+                                insertion and deletion operations, both can be performed from both
+                                ends. To know more refer this. <br>
+                                ● Priority Queue: A priority queue is a special queue where the
+                                elements are accessed based on the priority assigned to them. <br>
+                            </p>
+                        </div>
+                        <div class="implement" id="implement">
+                            <h2><u>Implentation Of Linked List</u></h2>
+                            <p>Linked lists have various applications in computer science and software development due
+                                to their flexibility and efficient dynamic memory allocation. Here are some common
+                                applications of linked lists: <br>
+
+                                Dynamic Memory Allocation: <br>Linked lists are often used in programming languages and
+                                systems to manage memory efficiently. They allow for dynamic allocation and deallocation
+                                of memory blocks, which is crucial for tasks like managing heaps and creating data
+                                structures like stacks and queues. <br>
+
+                                Data Structures: <br>Linked lists serve as the foundation for building more complex data
+                                structures.
+                                For example: <br>
+                                *Stacks: A linked list can be used to implement a stack data structure, where elements
+                                are pushed and popped from one end (the head).
+                                *Queues: Linked lists can be used to implement a queue, with elements enqueued at the
+                                tail and dequeued from the head.
+                                *Hash Tables: Separate chaining, a technique used in hash table implementations, employs
+                                linked lists to handle collisions.
+
+                                ● File Systems: <br> Some file systems, such as Unix's "ext2," use linked lists to
+                                maintain the
+                                structure of files and directories. Each entry in a directory is a node in the linked
+                                list. <br>
+
+                                ● Music and Video Playlists: <br> Media players often use linked lists to manage
+                                playlists,
+                                where each song or video is a node in the list, and you can move between them
+                                sequentially. <br>
+
+                                ● LRU (Least Recently Used) Cache: <br> LRU caches use a linked list to maintain the
+                                order of
+                                recently used items. The least recently used item is evicted when the cache is full. <br>
+                            </p>
+                        </div>
+                        <div class="advantage" id="advantage">
+                            <h2> <u>Advantages of Linked List</u></h2>
+                            <p>
+                                ● Linked lists offer several advantages in various programming and data structure
+                                scenarios. Here are some of the key advantages of using linked lists: <br>
+
+                                ● Efficient Insertions and Deletions: <br> Linked lists excel at inserting and deleting
+                                elements at arbitrary positions within the list. These operations typically have a time
+                                complexity of O(1) if you have a reference to the node where you want to perform the
+                                operation. <br>
+
+                                ● Memory Efficiency: <br> Linked lists can be more memory-efficient than arrays or
+                                dynamic
+                                arrays (like Python lists or C++ vectors) because they allocate memory for each element
+                                separately and don't require a contiguous block of memory. <br>
+
+
+                                ● No Overflows: <br>Unlike arrays, linked lists don't suffer from overflow issues
+                                because you
+                                can keep adding elements as long as you have available memory. <br>
+
+                                ● Support for Complex Structures: <br>Linked lists can be used to build more complex
+                                data
+                                structures, such as doubly linked lists (with links to both the next and previous nodes)
+                                and circular linked lists. <br>
+
+                                ● Constant-Time Insertions/Deletions at Head: <br>Adding or removing elements at the
+                                beginning
+                                of a singly linked list is a constant-time (O(1)) operation since you only need to
+                                update the reference to the new head node. <br>
+
+                                ● Ease of Merge: <br> When working with multiple linked lists, merging them together is
+                                typically more efficient than merging arrays or dynamic arrays. <br>
+
+                            </p>
+                        </div>
+                        <div class="disadvantage" id="disadvantage">
+                            <h2> <u>Disadvantages of Linked List</u></h2>
+                            <p>Linked lists have several disadvantages and limitations, which should be considered when
+                                choosing them as a data structure for a particular application. Here are some of the key
+                                disadvantages of linked lists: <br>
+
+                                ● No Random Access: <br> Unlike arrays or dynamic arrays, linked lists do not provide
+                                constant-time random access to elements. Accessing an element at a specific position
+                                typically requires traversing the list from the beginning or from a known reference
+                                point, resulting in O(n) time complexity for access. <br>
+
+                                ● Memory Overhead: <br> Each node in a linked list contains not only the data but also a
+                                reference (or link) to the next node, which can lead to increased memory overhead
+                                compared to an array where only the data is stored. <br>
+
+                                ● Inefficient for Reverse Traversal: <br> Singly linked lists are not efficient for reverse
+                                traversal (traversing the list from end to beginning) because they don't have references
+                                to the previous nodes. Doubly linked lists can address this limitation but at the cost
+                                of increased memory overhead. <br>
+
+                                ● Insertion and Deletion in Middle:  <br>While linked lists excel at inserting and deleting
+                                elements at the beginning or end, inserting or deleting elements in the middle of the
+                                list can be less efficient. You need to traverse the list to find the insertion or
+                                deletion point, resulting in O(n) time complexity. <br>
+
+                                ● Difficulty in Maintaining Consistency:  <br>Manipulating linked lists, especially in
+                                multithreaded environments, can be complex and require additional synchronization
+                                mechanisms to maintain consistency and avoid data corruption. <br>
+                            </p> 
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+            </div>
+
+
+        </section>
+        <div class="quiz" id="quiz">
+          <div id="content" class="content">
+            <p> "Quiz Time:Test Your Brainpower!"</p>
+            <a href="/htmls/linkedlist-quiz.html">Quiz</a>
+            <a href="/htmls/linked-list-simulation.html">Simulation</a>
+          </div>
+    </main>
+
+    
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-info">
+
+                            <h3><img src="/images/logo3.png" alt="">&nbsp;DS<span>.</span></h3>
+                            <p>
+                              <strong>Phone:</strong> +91 99999 88888<br>
+                              <strong>Email:</strong> xyz@gmail.com<br>
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links" id="footer-links">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                            </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="/assets/js/stacktheory.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

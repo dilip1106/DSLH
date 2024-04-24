@@ -1,0 +1,30 @@
+.box{
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+    left: 10px;
+}
+.box.active1{
+    transition-duration: 5s;
+    transform:translate(250px,250px);
+}
+.box.active2 {
+    transition-duration: 5s;
+    transform:translate(350px,250px);
+}
+.box.active3 {
+    transition-duration: 5s;
+    transform:translate(450px,250px);
+}
+.box.active4 {
+    transition-duration: 5s;
+    transform:translate(550px,250px);
+}
+.box.active5 {
+    transition-duration: 5s;
+    transform:translate(650px,250px);
+}
+.box.active6 {
+    transition-duration: 5s;
+    transform:translate(750px,250px);
+}

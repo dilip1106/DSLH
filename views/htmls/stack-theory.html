@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Data Structure Learning Hub</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/images/logo3.png" rel="icon">
+  <link href="/images/logo3.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+  <!-- <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="/assets/vendor/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="/assets/vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/assets/vendor/aos/aos.css">
+  <link rel="stylesheet" href="/assets/vendor/boxicons/css/boxicons.min.css"> -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/main/bootstrap.min.css">
+  <link rel="stylesheet" href="/main/bootstrap-icons.css">
+  <link rel="stylesheet" href="/main/glightbox.min.css">
+  <link rel="stylesheet" href="/main/swiper-bundle.min.css">
+  <!-- <link rel="stylesheet" href="/main/aos.css"> -->
+  <link rel="stylesheet" href="/main/boxicons.min.css">
+
+  
+  <!-- Template Main CSS File -->
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+  <link rel="stylesheet" href="/css/stack-theory.css">
+ 
+</head>
+
+<body class="services-details-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="/images/logo3.png"
+            alt="">&nbsp;DS<span>.</span></a></h1>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+
+        <ul>
+          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+         
+      <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a href="/htmls/stack-simulation.html">Stack</a></li>
+          <li><a href="/htmls/queue-simulation.html">Queue</a></li>
+          <li><a href="/htmls/linked-list-simulation.html">Linked List</a></li>
+        </ul>
+      </li>
+          <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/htmls/stack-theory.html">Stack</a></li>
+              <li><a href="/htmls/queue-theory.html">Queue</a></li>
+              <li><a href="/htmls/linked-list-theory.html">Linked List</a></li>
+            </ul>
+          </li>
+           </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+
+      </nav><!-- .navbar -->
+
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+
+      </label>
+
+
+
+
+    </div>
+  </header>
+
+
+  <main id="main">
+
+   
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          
+        </ol>
+      </div>
+    </nav>
+    </div>
+
+
+
+
+
+
+    <section id="service-details" class="service-details">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4><b>STACK</b></h4>
+              <div class="services-list">
+                <a href="#stack" class="active"><i class="bi bi-arrow-right-circle"></i><span>What is A
+                    Stack</span></a>
+                <a href="#Basic" class="active"><i class="bi bi-arrow-right-circle"></i><span>Basic</span></a>
+                <a href="#types" class="active"><i class="bi bi-arrow-right-circle"></i><span>Types</span></a>
+                <a href="#implement" class="active"><i
+                    class="bi bi-arrow-right-circle"></i><span>Implentation</span></a>
+                <a href="#advantage" class="active"><i class="bi bi-arrow-right-circle"></i><span>Advantages</span></a>
+                <a href="#disadvantage" class="active"><i
+                    class="bi bi-arrow-right-circle"></i><span>Disadvantages</span></a>
+                </div>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+             <div class="stack" id="stack">
+              <h3>STACK</h3>
+              <h2> <u>What is Stack?</u></h2>
+              <p>
+                A stack is a linear data structure in which the insertion of a new element
+                and removal of an existing element takes place at the same end
+                represented as the top of the stack.
+                To implement the stack, it is required to maintain the pointer to the top of the
+                stack, which is the last element to be inserted because we can access the
+                elements only on the top of the stack.</p>
+            </div>
+            <div class="Basic" id="Basic">
+              <h2> <u>Basic Operations on Stack</u></h2>
+              <p>In order to make manipulations in a stack, there are certain operations
+                provided to us.
+                ● push() to insert an element into the stack <br>
+                ● pop() to remove an element from the stack <br>
+                ● top() Returns the top element of the stack. <br>
+                ● isEmpty() returns true if stack is empty else false. <br>
+                ● size() returns the size of stack <br>
+                Push: <br>
+                Adds an item to the stack. If the stack is full, then it is said to be an Overflow
+                condition. <br>
+                Algorithm for push: <br>
+                Pop: <br>
+                Removes an item from the stack. The items are popped in the reversed order
+                in which they are pushed. If the stack is empty, then it is said to be an
+                Underflow condition. <br>
+                Algorithm for pop: <br>
+                Top: <br>
+                Returns the top element of the stack. <br>
+                Algorithm for Top: <br>
+                isEmpty: <br>
+                Returns true if the stack is empty, else false. <br>
+                Algorithm for isEmpty: <br>
+              </p>
+            
+            </div>
+            <div class="types" id="types">
+              <h2><u>Types of Stacks</u></h2>
+              <p>● Fixed Size Stack: <br> As the name suggests, a fixed size stack has a
+                fixed size and cannot grow or shrink dynamically. If the stack is
+                full and an attempt is made to add an element to it, an overflow
+                error occurs. If the stack is empty and an attempt is made to
+                remove an element from it, an underflow error occurs. <br>
+                ● Dynamic Size Stack: <br> A dynamic size stack can grow or shrink
+                dynamically. When the stack is full, it automatically increases its
+                size to accommodate the new element, and when the stack is
+                empty, it decreases its size. This type of stack is implemented
+                using a linked list, as it allows for easy resizing of the stack. <br></p>
+            </div>
+            <div class="implement" id="implement">
+              <h2><u>Implentation Of Stack</u></h2>
+              <p><u>Stack Can Be Implented using Two Ways:</u> <br>
+                ● STACK using ARRAY <br>
+                ● STACK using LINKED LIST <br>
+              </p>
+            </div>
+            <div class="advantage" id="advantage">
+              <h2> <u>Advantages of Stack</u></h2>
+              <p>
+                Advantages of array implementation: <br>
+                ● Easy to implement. <br>
+                ● Memory is saved as pointers are not involved <br>
+                Advantages of Linked List implementation: <br>
+                ● The linked list implementation of a stack can grow and shrink
+                according to the needs at runtime. <br>
+                ● It is used in many virtual machines like JVM. <br>
+              </p>
+            </div>
+            <div class="disadvantage" id="disadvantage">
+              <h2> <u>Disadvantages of Stack</u></h2>
+              <p>
+                Disadvantages of array implementation: <br>
+                ● It is not dynamic i.e., it doesn’t grow and shrink depending on
+                needs at runtime. [But in case of dynamic sized arrays like vector
+                in C++, list in Python, ArrayList in Java, stacks can grow and
+                shrink with array implementation as well]. <br>
+                ● The total size of the stack must be defined beforehand. <br>
+                Disadvantages of Linked List implementation: <br>
+                ● Requires extra memory due to the involvement of pointers. <br>
+                ● Random accessing is not possible in stack <br>
+              </p>
+            </div>
+            </div>
+            
+        </div>
+
+      </div>
+
+      </div>
+      </div>
+      
+
+    </section>
+    <div class="quiz" id="quiz">
+      <div id="content" class="content">
+        <p> "Quiz Time:Test Your Brainpower!"</p>
+        <a href="/htmls/stack-quiz.html">Quiz</a>
+        <a href="/htmls/stack-simulation.html">Simulation</a>
+      </div>
+
+    </div>
+  </main>
+
+  
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+
+              <h3><img src="/images/logo3.png" alt="">&nbsp;DS<span>.</span></h3>
+              <p>
+                <strong>Phone:</strong> +91 99999 88888<br>
+                <strong>Email:</strong> xyz@gmail.com<br>
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links" id="footer-links">
+            <h4>Explore</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+             </ul>
+          </div>
+
+ 
+        </div>
+      </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/stacktheory.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>

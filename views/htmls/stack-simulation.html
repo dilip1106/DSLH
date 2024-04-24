@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <title>Data Structure Learning Hub</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/images/logo3.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  <link rel="stylesheet" href="../main/bootstrap.min.css">
+      <link rel="stylesheet" href="../main/bootstrap-icons.min.css">
+  <link href="../css/stack-simulation.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="/images/logo3.png"
+            alt="">&nbsp;DS<span>.</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+
+        <ul>
+          <li><a class="nav-link scrollto active" href="../index.html">Home</a></li>
+
+          <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../htmls/stack-simulation.html">Stack</a></li>
+              <li><a href="../htmls/queue-simulation.html">Queue</a></li>
+              <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/linear-simulation.html">Linear Search</a></li>
+                  <li><a href="../htmls/binarysearch-simulation.html">Binary Search</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/bubblesort-simulation.html">Bubble Sort</a></li>
+                  <li><a href="../htmls/selectionsort-simualtion.html">Selection Sort</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/htmls/stack-theory.html">Stack</a></li>
+              <li><a href="/htmls/queue-theory.html">Queue</a></li>
+              <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/htmls/linear-simulation.html">Linear Search</a></li>
+                  <li><a href="/htmls/binarysearch-simulation.html">Binary Search</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/htmls/bubblesort-simulation.html">Bubble Sort</a></li>
+                  <li><a href="/htmls/selectionsort-simualtion.html">Selection Sort</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+
+  <div class="container1">
+    <!-- <input type="text" id="push-btn" placeholder="Value" maxlength="4"> -->
+    <!-- buutonn input -->
+    <form style="display: inline-block;">
+      <input required='' type='text' id="push-btn" maxlength="6">
+      <label alt='Value' placeholder='Value'></label>
+    </form>
+
+    <!-- <button onclick="move()" id="button">Push</button> -->
+    <button class="button-62" id="push" role="button" onclick="move()">PUSH</button>
+    <button class="button-62" id="pop" role="button" onclick="pop()">POP</button>
+    <button class="button-62" id="clear" role="button" onclick="clearStack()">CLEAR STACK</button><br>
+    <!-- <button onclick="pop()" id="button">Pop</button> -->
+    <!-- <button onclick="clearStack()" id="button">Clear Stack</button> -->
+    <div class="top-text text-box">
+      Top of the Stack:
+    </div>
+    <button class="button-63" role="button" id="top-text">-1</button><br>
+    <div class="last-push-text text-box">
+      Last Pushed Item:
+    </div>
+    <button class="button-63" role="button" id="last-push-text">NULL</button><br>
+
+    <div class="last-pop-text text-box">
+      Last Poped Item:
+    </div>
+    <button class="button-63" role="button" id="last-pop-text">NULL</button><br>
+
+    <div class="size-text text-box">
+      Size of the Stack:
+    </div>
+    <button class="button-63" role="button" id="size-text">10</button><br>
+
+    <div id="box" class="box">
+      <div class="number" id="number"></div>
+    </div>
+
+    <div class="stack">
+      <div class="main-stack-bucket"></div>
+    </div>
+
+    <ul class="stack-pos">
+      <li>9</li>
+      <li>8</li>
+      <li>7</li>
+      <li>6</li>
+      <li>5</li>
+      <li>4</li>
+      <li>3</li>
+      <li>2</li>
+      <li>1</li>
+      <li>0</li>
+      <li style="
+            color: red;">-1</li>
+    </ul>
+    <div class="stack-box" id="box1"></div>
+    <div class="stack-box" id="box2"></div>
+    <div class="stack-box" id="box3"></div>
+    <div class="stack-box" id="box4"></div>
+    <div class="stack-box" id="box5"></div>
+    <div class="stack-box" id="box6"></div>
+    <div class="stack-box" id="box7"></div>
+    <div class="stack-box" id="box8"></div>
+    <div class="stack-box" id="box9"></div>
+    <div class="stack-box" id="box10"></div>
+
+    <div id="top-no" style="top: 635px;">
+      top
+      <img id="arrow-img" src="../images/rev-arrow-png-images-3.png">
+    </div>
+  </div>
+
+  <div class="message-box" id="message-box">
+    This is a message box
+  </div>
+  <!-- Alogrithm Text -->
+  <div id="push-algo">
+    <h4 class="my-2 mx-4">PUSH ALGORITHM</h4>
+    <p class="my-2 mx-4">void push(int x){<br>
+      <span class="px-3">
+        if(top==size-1){<br>
+      </span>
+      <span class="px-5">
+          printf("STACK OVERFLOW");<br>
+      </span>
+      <span class="px-3">
+        }<br>
+      </span>
+      <span class="px-3">
+        else{<br>
+      </span>
+      <span class="px-5">
+          top++;<br>
+      </span>
+      <span class="px-5">
+          stack[top]=x;<br>
+      </span>
+      <span class="px-3">
+        }<br>
+      </span>
+      }
+    </p>
+  </div>
+  <div id="pop-algo" class="my-2">
+    <h4 class="my-2 mx-4">POP ALGORITHM</h4>
+    <p class="my-2 mx-4">int pop(){<br>
+      <span class="px-3">
+        int x;<br>
+      </span>
+      <span class="px-3">
+        if(top==-1){<br>
+      </span>
+      <span class="px-5">
+          printf("STACK UNDERFLOW");<br>
+      </span>
+      <span class="px-3">
+        }<br>
+      </span>
+      <span class="px-3">
+        else{<br>
+      </span>
+      <span class="px-5">
+          x=stack[top];<br>
+      </span>
+      <span class="px-5">
+          top--;<br>
+      </span>
+      <span class="px-3">
+      }<br>
+      </span>
+      <span class="px-3">
+      return x;<br>
+      </span>
+    }
+    </p>
+  </div>
+
+</body>
+<script src="../scripts/stack-simulation.js"> </script>
+
+</html>

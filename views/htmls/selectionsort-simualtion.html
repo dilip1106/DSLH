@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structure Learning Hub</title>
+    
+  <!-- Favicons -->
+  <link href="../images/logo3.png" rel="icon">
+  <link href="../images/logo3.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../main/bootstrap.min.css">
+      <link rel="stylesheet" href="../main/bootstrap-icons.min.css">
+    <!-- <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+   -->
+    <link rel="stylesheet" href="../stylefolder/selectionsort-simulation.css">
+</head>
+<body>
+  <!-- navbar starts -->
+  <header id="header" class="fixed-top ">
+
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="../images/logo3.png"
+            alt="">&nbsp;DS<span>.</span></a></h1>
+      
+            <nav id="navbar" class="navbar order-last order-lg-0">
+
+              <ul>
+                <li><a class="nav-link scrollto active" href="../index.html">Home</a></li>
+                
+      
+                <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="../htmls/stack-simulation.html">Stack</a></li>
+                    <li><a href="../htmls/queue-simulation.html">Queue</a></li>
+                    <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="../htmls/linear-simulation.html">Linear Search</a></li>
+                        <li><a href="../htmls/binarysearch-simulation.html">Binary Search</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="../htmls/bubblesort-simulation.html">Bubble Sort</a></li>
+                        <li><a href="../htmls/selectionsort-simualtion.html">Selection Sort</a></li>
+                      </ul>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="/htmls/stack-theory.html">Stack</a></li>
+                    <li><a href="/htmls/queue-theory.html">Queue</a></li>
+                    <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="/htmls/linear-simulation.html">Linear Search</a></li>
+                        <li><a href="/htmls/binarysearch-simulation.html">Binary Search</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="/htmls/bubblesort-simulation.html">Bubble Sort</a></li>
+                        <li><a href="/htmls/selectionsort-simualtion.html">Selection Sort</a></li>
+                      </ul>
+                    </li>
+                    
+                  </ul>
+                </li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+      
+      
+            </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      
+
+
+    </div>
+  </header>
+
+  <!-- navbar ends -->
+    <form style="display: inline-block;">
+      <input required='' type='text' id="input" maxlength="6">
+      <label alt='Value' placeholder='Value'></label>
+    
+    <div class="box0 box"></div>
+    <div class="box1 box"></div>
+    <div class="box2 box"></div>
+    <div class="box3 box"></div>
+    <div class="box4 box"></div>
+    <div class="box5 box"></div>
+    <div class="box6 box"></div>
+
+    
+
+    </form>
+    
+    <!-- <button onclick="move()" id="button">Push</button> -->
+    <button class="button-62" id="push" role="button" onclick="add()">ADD</button>
+    <button class="button-62" id="pop" role="button" onclick="remove()">REMOVE</button>
+    <button class="button-62" id="clear" role="button" onclick="cleararr()">CLEAR</button>
+    
+    <button class="button-62" id="fillarr" role="button" onclick="fillarr()">FILL</button>
+    <button class="button-62" id="sort" role="button" onclick="selectionsort()">SORT</button><br>
+    <div class="main-box">
+        <img src="../images/mainbox.png" alt="box image">
+    </div>
+    <div class="piall">
+    <div class="pi7">-1</div>
+    <div class="pi">0</div>
+    <div class="pi">1</div>
+    <div class="pi">2</div>
+    <div class="pi">3</div>
+    <div class="pi">4</div>
+    <div class="pi">5</div>
+    <div class="pi">6</div>
+    </div>
+    <!-- <div class="pointer">j</div> -->
+    <div id="front-no" >
+        <img id="arrow-img" src="../images/up-arrow-png-images-3.png">
+        <div class="fronti-text">end</div>
+      </div>
+      <div class="alert">
+        <h3 class="head">ALERT !</h3><br>
+        <p class="para"></p><br>
+        <button class="button-81" id="ok" role="button" onclick="off()">Ok</button>
+      </div>
+      <div class="arrow">
+      <div id="front-i" >
+        <img id="arrow-img" src="../images/up-arrow-png-images-3.png">
+        <div class="front-text">i</div>
+      </div>
+      <div id="front-j" >
+        <img id="arrow-img" src="../images/up-arrow-png-images-3.png">
+        <div class="front-text">j</div>
+      </div>
+    </div>
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="../scripts/selectionsort-simulation.js"></script>
+</body>
+</html>
