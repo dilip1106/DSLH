@@ -20,6 +20,7 @@
     <!-- <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
    -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../stylefolder/selectionsort-simulation.css">
 </head>
 <body>
@@ -81,7 +82,7 @@
       
             </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <a href="#about" class="get-started-btn scrollto opacity-0">Get Started</a>
       
 
 
@@ -112,6 +113,18 @@
     
     <button class="button-62" id="fillarr" role="button" onclick="fillarr()">FILL</button>
     <button class="button-62" id="sort" role="button" onclick="selectionsort()">SORT</button><br>
+    
+    <h1 class="display-4 position-relative pt-4"style=" left:600px  ">Selection Sort  </h1>
+    <br />
+    <div class="d-flex gap-3 " style="padding-left: 20px;">
+      <div class="alert alert-success" role="alert">
+        Green:MATCH
+      </div>
+      <div class="alert alert-danger" role="alert">
+        RED:NO MATCH
+      </div>
+    </div>
+    
     <div class="main-box">
         <img src="../images/mainbox.png" alt="box image">
     </div>
@@ -130,7 +143,7 @@
         <img id="arrow-img" src="../images/up-arrow-png-images-3.png">
         <div class="fronti-text">end</div>
       </div>
-      <div class="alert">
+      <div class="Alert">
         <h3 class="head">ALERT !</h3><br>
         <p class="para"></p><br>
         <button class="button-81" id="ok" role="button" onclick="off()">Ok</button>
@@ -144,6 +157,20 @@
         <img id="arrow-img" src="../images/up-arrow-png-images-3.png">
         <div class="front-text">j</div>
       </div>
+    </div>
+
+    <div style="padding-left: 20px;">
+      <div class="alert alert-success w-25" style="top: -210px; " role="alert">
+        <h4 class="alert-heading">Shortcuts!</h4>
+        <p></p>
+        <hr>
+        <p class="mb-0"><ul class="list-group gap-2">
+          <li class="list-group-item">Enter - Add </li>
+          <li class="list-group-item">R/r - Remove</li>
+          <li class="list-group-item">C/c - Clear</li>
+          <li class="list-group-item">S/s -Search</li>
+        </ul></p>
+      </div> 
     </div>
     
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

@@ -38,22 +38,22 @@ function enable() {
   document.getElementById("sort").disabled = false;
 }
 function off() {
-  var alert = document.querySelector(".alert");
-  alert.classList.remove("on");
+  var Alert = document.querySelector(".Alert");
+  Alert.classList.remove("on");
 }
 
 function add() {
   arrow.style.opacity = 1;
   if (pt >= 6) {
-    var alert = document.querySelector(".alert");
+    var Alert = document.querySelector(".Alert");
     var para = document.querySelector(".para");
     para.innerHTML = "ARRAY IS OVERFLOW";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else if (number.value == "") {
-    var alert = document.querySelector(".alert");
+    var Alert = document.querySelector(".Alert");
     var para = document.querySelector(".para");
     para.innerHTML = "ENTER A VALID NO PLEASE !";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else {
     pt++;
     arr.push(number.value);
@@ -73,10 +73,10 @@ function remove() {
   number.value = "";
   arrow.style.opacity = 1;
   if (pt == -1) {
-    var alert = document.querySelector(".alert");
+    var Alert = document.querySelector(".Alert");
     var para = document.querySelector(".para");
     para.innerHTML = "CANNOT REMOVE !";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else {
     arr.pop();
     var boxexit = document.querySelector(`.box${pt}`);
@@ -94,10 +94,10 @@ function cleararr() {
   number.value = "";
   arrow.style.opacity = 1;
   if (pt == -1) {
-    var alert = document.querySelector(".alert");
+    var Alert = document.querySelector(".Alert");
     var para = document.querySelector(".para");
     para.innerHTML = "OOP's!! IT SEEMS LIKE EMPTY.";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else {
     while (pt != -1) {
       arr.pop();
@@ -204,10 +204,10 @@ function bubble() {
   number.value = "";
   duparr=arr.slice();
   if (pt == -1) {
-    var alert = document.querySelector(".alert");
+    var Alert = document.querySelector(".Alert");
     var para = document.querySelector(".para");
     para.innerHTML = "OOP's!! IT SEEMS LIKE EMPTY.";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else {
 
     var n = arr.length;
@@ -286,7 +286,7 @@ function myLoop() {
       myLoop(); //  ..  again which will trigger another
     } //  ..  setTimeout()
     if(z==21){
-      displayunsorted();
+      // displayunsorted();
     }
   }, 2000);
 }

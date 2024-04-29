@@ -37,22 +37,22 @@ function enable() {
   document.getElementById("sort").disabled = false;
 }
 function off(){
-  var alert = document.querySelector('.alert');
-  alert.classList.remove('on');
+  var Alert = document.querySelector('.Alert');
+  Alert.classList.remove('on');
 }
 
 function add() {
   arrow.style.opacity=1;
   if (pt>=6) {
-    var alert = document.querySelector('.alert');
+    var Alert = document.querySelector('.Alert');
     var para=document.querySelector('.para');
     para.innerHTML="ARRAY IS OVERFLOW";
-    alert.classList.add('on');
+    Alert.classList.add('on');
   } else if (number.value == "") {
-    var alert = document.querySelector('.alert');
+    var Alert = document.querySelector('.Alert');
     var para=document.querySelector('.para');
     para.innerHTML="ENTER A VALID NO PLEASE !";
-    alert.classList.add('on');
+    Alert.classList.add('on');
   } else {
     
       pt++;
@@ -73,10 +73,10 @@ function add() {
 function remove() {
   arrow.style.opacity=1;
   if (pt == -1) {
-    var alert = document.querySelector('.alert');
+    var Alert = document.querySelector('.Alert');
     var para=document.querySelector('.para');
     para.innerHTML="OOP's!! IT SEEMS LIKE EMPTY.";
-    alert.classList.add("on");
+    Alert.classList.add("on");
   } else {
     arr.pop();
     var boxexit = document.querySelector(`.box${pt}`);
@@ -93,10 +93,10 @@ function remove() {
 function cleararr() {
   arrow.style.opacity=1;
   if (pt == -1) {
-    var alert = document.querySelector('.alert');
+    var Alert = document.querySelector('.Alert');
     var para=document.querySelector('.para');
     para.innerHTML="OOP's!! IT SEEMS LIKE EMPTY.";
-    alert.classList.add('on');
+    Alert.classList.add('on');
   } else {
     while (pt != -1) {
       arr.pop();
@@ -143,10 +143,10 @@ function selectionsort() {
   ipointer.style.opacity=1;
   jpointer.style.opacity=1;
   if (pt==-1) {
-    var alert = document.querySelector('.alert');
+    var Alert = document.querySelector('.Alert');
     var para=document.querySelector('.para');
     para.innerHTML="OOP's!! IT SEEMS LIKE EMPTY.";
-    alert.classList.add('on');
+    Alert.classList.add('on');
   } else {
     issorting=true;
     for (let i = 0; i < arr.length; i++) {

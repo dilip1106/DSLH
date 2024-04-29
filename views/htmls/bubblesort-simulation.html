@@ -84,7 +84,7 @@
         </nav>
         <!-- .navbar -->
 
-        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        <a href="#about" class="get-started-btn scrollto opacity-0">Get Started</a>
       </div>
     </header>
 
@@ -115,9 +115,17 @@
 
     <button class="button-62" id="fillarr" role="button" onclick="fillarr()">FILL</button>
     <button class="button-62" id="sort" role="button" onclick="bubble()">SORT</button>
-    <button class="button-62" id="sort" role="button" onclick="userinput()">YOUR INPUT</button>
+    <!-- <button class="button-62" id="sort" role="button" onclick="userinput()">YOUR INPUT</button> -->
+    <h1 class="display-4 position-relative pt-4"style=" left:600px  ">Binary Search</h1>
     <br />
-
+    <div class="d-flex gap-3 " style="padding-left: 20px;">
+      <div class="alert alert-success" role="alert">
+        Green:MATCH
+      </div>
+      <div class="alert alert-danger" role="alert">
+        RED:NO MATCH
+      </div>
+    </div>
     <div class="main-box">
       <img src="../images/mainbox.png" alt="box image" />
     </div>
@@ -136,8 +144,8 @@
       <img id="arrow-img" src="../images/up-arrow-png-images-3.png" />
       <div class="fronti-text">end</div>
     </div>
-    <div class="alert">
-      <h3 class="head">ALERT !</h3>
+    <div class="Alert">
+      <h3 class="head">Alert !</h3>
       <br />
       <p class="para"></p>
       <br />
@@ -155,7 +163,7 @@
         <div class="front-text">j</div>
       </div>
       
-      <div class="unsorted">
+      <!-- <div class="unsorted">
         <div class="main-box2">
           <img src="../images/mainbox.png" alt="box image" />
         </div>
@@ -167,8 +175,21 @@
         <div class="ubox5 ubox"></div>
         <div class="ubox6 ubox"></div>
         <p class="unsortedp">Your Array</p>
-      </div>
+      </div> -->
       
+      <div style="padding-left: 20px;">
+        <div class="alert alert-success w-25" style="top: -280px; " role="alert">
+          <h4 class="alert-heading">Shortcuts!</h4>
+          <p></p>
+          <hr>
+          <p class="mb-0"><ul class="list-group gap-2">
+            <li class="list-group-item">Enter - Add </li>
+            <li class="list-group-item">R/r - Remove</li>
+            <li class="list-group-item">C/c - Clear</li>
+            <li class="list-group-item">S/s -Search</li>
+          </ul></p>
+        </div> 
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../scripts/bubblesort-simulation.js"></script>
   </body>
