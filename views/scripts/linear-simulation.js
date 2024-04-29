@@ -21,7 +21,7 @@ document.addEventListener("keypress", function (e) {
     number.value = "";
     remove();
    
-  } else if (e.key === "S" || e.key === "s") {
+  } else if (e.key === "Enter" ) {
     number.value = "";
     linear();
     
@@ -136,7 +136,7 @@ function linear() {
         break;
       }
     }
-    
+    myLoop();
   }
 
   function myLoop() {
@@ -175,7 +175,7 @@ function linear() {
     }, 2000);
 
   }
-  myLoop();
+  //myLoop();
   // setTimeout(()=>{
   //   if (flag == 1) {
   //     var b1 = document.querySelector(`.box${i}`);
