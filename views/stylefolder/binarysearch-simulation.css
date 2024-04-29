@@ -459,7 +459,7 @@ input[type="text"][required] + label[placeholder]:before {
 .main-box {
   z-index: -1;
   position: relative;
-  top: 220px;
+  top: 25px;
   left: 300px;
   width: 1030px;
   height: 85px;
@@ -592,20 +592,20 @@ input[type="text"][required] + label[placeholder]:before {
   top: 215px;
 }
 
-.alert{
+.Alert{
   width: 400px;
   height: 200px;
   background-color: transparent;
   backdrop-filter: blur(10px);
   z-index: 1;
   position: relative;
-  top: -30px;
+  top: -230px;
   left: 530px;
   border-radius: 50px;
   opacity: 0;
   border:2px solid black ;
 }
-.alert .head{
+.Alert .head{
   position: relative;
   /* left:160px ; */
   display: flex;
@@ -614,7 +614,7 @@ input[type="text"][required] + label[placeholder]:before {
   font-size: xx-large;
 
 }
-.alert .para{
+.Alert .para{
   position: relative;
   display: flex;
   justify-content: center;
@@ -622,7 +622,7 @@ input[type="text"][required] + label[placeholder]:before {
   font-size: x-large;
 }
 
-.alert.on{
+.Alert.on{
   opacity: 1;
 }
 .search{
@@ -706,7 +706,7 @@ input[type="text"][required] + label[placeholder]:before {
   gap: 150px;
   position: relative;
   left: 20px;
-  top: 250px;
+  top: 50px;
   font-weight: bold;
 }
 .pi7{
@@ -716,30 +716,30 @@ input[type="text"][required] + label[placeholder]:before {
   font-size: 30px;
   font-weight: bold;
   left: 200px;
-  top: 260px;
+  top: 50px;
   position: relative;
   opacity: 0;
 }
 #front-start{
   font-size: 30px;
   font-weight: bold;
-  left: 360px;
-  top: -60px;
+  left: 355px;
+  top: -230px;
   position: relative;
 
 }
 #front-mid{
   font-size: 30px;
   font-weight: bold;
-  left: 840px;
-  top: -150px;
+  left: 835px;
+  top: -330px;
   position: relative;
 }
 #front-high{
   font-size: 30px;
   font-weight: bold;
-  left: 1330px;
-  top: -250px;
+  left: 1325px;
+  top: -430px;
   position: relative;
 }
 .front-text{

@@ -82,7 +82,7 @@
         </nav>
         <!-- .navbar -->
 
-        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        <a href="#about" class="get-started-btn scrollto " style="opacity: 0;"></a>
       </div>
     </header>
 
@@ -114,6 +114,19 @@
     <button class="button-62" id="binary" role="button" onclick="binary()">
       SEARCH</button
     ><br />
+    <h1 class="display-4 position-relative pt-4"style=" left:600px  ">Binary Search</h1>
+    <br />
+    <div class="d-flex gap-3 " style="padding-left: 20px;">
+      <div class="alert alert-success" role="alert">
+        Green:MATCH
+      </div>
+      <div class="alert alert-danger" role="alert">
+        RED:NO MATCH
+      </div>
+      <div class="alert alert-danger" role="alert">
+        L:LOW  M:MID H:HIGH
+      </div>
+    </div>
 
     <div class="main-box">
       <img src="../images/mainbox.png" alt="box image" />
@@ -133,7 +146,7 @@
       <img id="arrow-img" src="../images/up-arrow-png-images-3.png" />
       <div class="fronti-text">end</div>
     </div>
-    <div class="alert">
+    <div class="Alert">
       <h3 class="head">ALERT !</h3>
       <br />
       <p class="para"></p>
@@ -145,15 +158,15 @@
     
       <div id="front-start">
         <img id="arrow-img" src="../images/up-arrow-png-images-3.png" />
-        <div class="front-text">l</div>
+        <div class="front-text">L</div>
       </div>
       <div id="front-mid">
         <img id="arrow-img" src="../images/up-arrow-png-images-3.png" />
-        <div class="front-text">m</div>
+        <div class="front-text">M</div>
       </div>
       <div id="front-high">
         <img id="arrow-img" src="../images/up-arrow-png-images-3.png" />
-        <div class="front-text">h</div>
+        <div class="front-text">H</div>
       </div>
     <!-- <div class="search">
       <h3 class="head">LINEAR SEARCH</h3>
@@ -166,7 +179,20 @@
         Ok
       </button>
     </div> -->
-
+    <div style="padding-left: 20px;">
+      <div class="alert alert-success w-25" style="top: -410px; " role="alert">
+        <h4 class="alert-heading">Shortcuts!</h4>
+        <p></p>
+        <hr>
+        <p class="mb-0"><ul class="list-group gap-2">
+          <li class="list-group-item">Enter - Add </li>
+          <li class="list-group-item">R/r - Remove</li>
+          <li class="list-group-item">C/c - Clear</li>
+          <li class="list-group-item">S/s -Search</li>
+        </ul></p>
+      </div> 
+    </div>
+     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../scripts/binarysearch-simulation.js"></script>
   </body>
