@@ -459,7 +459,7 @@ input[type="text"][required] + label[placeholder]:before {
 .main-box {
   z-index: -1;
   position: relative;
-  top: 50px;
+  top: 30px;
   left: 300px;
   width: 1030px;
   height: 85px;
@@ -570,7 +570,7 @@ input[type="text"][required] + label[placeholder]:before {
   backdrop-filter: blur(10px);
   z-index: 1;
   position: relative;
-  top: -180px;
+  top: -230px;
   left: 530px;
   border-radius: 50px;
   opacity: 0;

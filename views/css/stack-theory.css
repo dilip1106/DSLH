@@ -1065,3 +1065,255 @@ color: white;
   font-size: 13px;
   color: #fff;
 }
+
+
+
+.stack-content {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.stack-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add right margin for spacing */
+}
+
+.text-container {
+  flex-grow: 1; /* Allow the text container to grow and take remaining space */
+}
+
+/* Additional styles for text, adjust as needed */
+.text-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1em;
+}
+
+.i1{
+  max-width:350px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:0px;
+}
+
+
+
+.stack p{
+  font-size: 20px;
+  margin-left:10px;
+}
+.stack h2{
+  font-size: 20px;
+  font-weight:600;
+}
+.stack h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.i2{
+  max-width:450px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:0px;
+}
+.Basic h2{
+  font-weight: 600;
+}
+.Basic p{
+  font-size: 20px;
+  margin-left:10px;
+}
+.i3{
+  max-width:610px;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-left: 100px;
+}
+.types h2{
+  font-weight: 600;
+}
+.implement h2{
+  font-weight: 600;
+}
+
+.advantage h2{
+  font-weight: 600;
+}
+.disadvantage h2{
+  font-weight: 600;
+}
+
+.Basic_q h2{
+  font-weight: 600;
+}
+.queue h3 {
+  font-weight: 600;
+  text-decoration: underline; /* Add this line to underline the text */
+}
+.q_i3{
+  max-width:606px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 4px solid rgb(138, 94, 14);
+
+}
+.l-i1{
+  max-width:610px;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-left: 100px;
+}
+
+
+
+/*Selection*/
+.SElection h2{
+  font-weight: 600;
+}
+.SElection h1{
+  text-align: center;
+  font-weight: 800;
+  text-decoration-line: underline;
+  -moz-text-decoration-line: underline;
+}
+
+.Sel-i1{
+  max-width: 210px;
+  border-radius: 10px;
+  margin-left: 200px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.sel-i2{
+  max-width: 260px;
+  border-radius: 10px;
+  margin-left: 165px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.sel-i3{
+  max-width: 260px;
+  border-radius: 10px;
+  margin-left: 165px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.sel-i4{
+  max-width: 260px;
+  border-radius: 10px;
+  margin-left: 165px;
+  border: 4px solid rgb(138, 94, 14);
+
+}
+.sel-io{
+  max-width:250px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:100px;
+}
+.sel-i5{
+  max-width:280px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:50px;
+}
+/*bubble*/
+.bubble-i1{
+  max-width:250px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:100px;
+}
+.bubble-i2{
+  max-width: 410px;
+  border-radius: 10px;
+  margin-left: 200px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.bubble-i3{
+  max-width: 410px;
+  border-radius: 10px;
+  margin-left: 200px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.bubble-i4{
+  max-width: 410px;
+  border-radius: 10px;
+  margin-left: 200px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.bubble-i5{
+  max-width:280px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:50px;
+}
+
+/*Linear Search*/
+.Linear-I1{
+  max-width:608px;
+  position: relative;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-left: 100px;
+
+}
+.linear-i2{
+  max-width: 458px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.linear-i3{
+  max-width: 458px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.linear-i4{
+  max-width:280px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:50px;
+}
+/*Binary search*/
+.binary-i1{
+  max-width:408px;
+  position: relative;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-left: 140px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.binary-i2{
+  max-width: 458px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.binary-i3{
+  max-width: 458px;
+  border-radius: 10px;
+  margin-left: 100px;
+  border: 4px solid rgb(138, 94, 14);
+}
+.binary-i5{
+  max-width:280px;
+  float: right;
+  border-radius:10px;
+  border: 4px solid rgb(138, 94, 14);
+  margin-right:50px;
+}
