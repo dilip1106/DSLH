@@ -11,8 +11,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/images/logo3.png" rel="icon">
-  <link href="/images/logo3.png" rel="apple-touch-icon">
+  <link href="../images/logo3.png" rel="icon">
+  <link href="../images/logo3.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -30,80 +30,113 @@
   <link rel="stylesheet" href="/assets/vendor/aos/aos.css">
   <link rel="stylesheet" href="/assets/vendor/boxicons/css/boxicons.min.css"> -->
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/main/bootstrap.min.css">
-  <link rel="stylesheet" href="/main/bootstrap-icons.css">
-  <link rel="stylesheet" href="/main/glightbox.min.css">
-  <link rel="stylesheet" href="/main/swiper-bundle.min.css">
-  <!-- <link rel="stylesheet" href="/main/aos.css"> -->
-  <link rel="stylesheet" href="/main/boxicons.min.css">
-
-  
+  <link rel="stylesheet" href="../main/bootstrap.min.css">
+  <link rel="stylesheet" href="../main/bootstrap-icons.min.css">
   <!-- Template Main CSS File -->
-  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
-  <link rel="stylesheet" href="/css/stack-theory.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/stack-theory.css">
+
  
 </head>
 
 <body class="services-details-page" data-bs-spy="scroll" data-bs-target="#navmenu">
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top">
+    <div
+      class="container d-flex align-items-center justify-content-lg-between"
+    >
+      <h1 class="logo me-auto me-lg-0">
+        <a href="/index.html"
+          ><img src="../images/logo3.png" alt="" />&nbsp;DS<span>.</span></a
+        >
+      </h1>
 
-    <div class="container d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="/index.html"><img src="/images/logo3.png"
-            alt="">&nbsp;DS<span>.</span></a></h1>
-      
       <nav id="navbar" class="navbar order-last order-lg-0">
 
         <ul>
-          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
-         
-      <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
-        <ul>
-          <li><a href="/htmls/stack-simulation.html">Stack</a></li>
-          <li><a href="/htmls/queue-simulation.html">Queue</a></li>
-          <li><a href="/htmls/linked-list-simulation.html">Linked List</a></li>
-        </ul>
-      </li>
-          <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="../index.html">Home</a></li>
+
+          <li class="dropdown"><a href="#"><span>Simulation</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/htmls/stack-theory.html">Stack</a></li>
-              <li><a href="/htmls/queue-theory.html">Queue</a></li>
-              <li><a href="/htmls/linked-list-theory.html">Linked List</a></li>
+              <li><a href="../htmls/stack-simulation.html">Stack</a></li>
+              <li><a href="../htmls/queue-simulation.html">Queue</a></li>
+              <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/linear-simulation.html">Linear Search</a></li>
+                  <li><a href="../htmls/binarysearch-simulation.html">Binary Search</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/bubblesort-simulation.html">Bubble Sort</a></li>
+                  <li><a href="../htmls/selectionsort-simualtion.html">Selection Sort</a></li>
+                </ul>
+              </li>
+              
             </ul>
           </li>
-           </ul>
+          <li class="dropdown"><a href="#"><span>Theory</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../htmls/stack-theory.html">Stack</a></li>
+              <li><a href="/htmls/queue-theory.html">Queue</a></li>
+              <li class="dropdown"><a href="#"><span>Search</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/linear.html">Linear Search</a></li>
+                  <li><a href="../htmls/binary.html">Binary Search</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Sort</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="../htmls/bubblesort.html">Bubble Sort</a></li>
+                  <li><a href="../htmls/selection.html">Selection Sort</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
 
 
-      </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
-      <label class="switch">
-        <input type="checkbox" id="darkModeToggle">
-        <span class="slider round"></span>
-
-      </label>
-
-
-
-
+      <a href="#about" class="get-started-btn scrollto " style="opacity: 0;"></a>
     </div>
   </header>
-
+  <!-- End Header -->
 
   <main id="main">
 
-   
+    <!-- Services Details Page Title & Breadcrumbs -->
+    <!-- <div data-aos="fade" class="page-title"> -->
+    <!-- <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Services Details</h1>
+              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            </div>
+          </div>s
+        </div>
+      </div> -->
     <nav class="breadcrumbs">
       <div class="container">
         <ol>
-          
+          <!-- <li><a href="index.html">Home</a></li>
+          <li class="current">Services Details</li> -->
         </ol>
       </div>
     </nav>
-    </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service-details Section - Services Details Page -->
+
+
+
+
+    <!-- End Services List -->
 
 
 
@@ -130,16 +163,40 @@
                 <a href="#advantage" class="active"><i class="bi bi-arrow-right-circle"></i><span>Advantages</span></a>
                 <a href="#disadvantage" class="active"><i
                     class="bi bi-arrow-right-circle"></i><span>Disadvantages</span></a>
-                </div>
-            </div>
+                <!--<a href="#advantage"><i class="bi bi-arrow-right-circle"></i><span>Basic</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a> -->
+                <!-- <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a> -->
+                <!-- <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a> -->
+              </div>
+            </div><!-- End Services List -->
+            <!-- <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@example.com">contact@example.com</a></span></p>
+            </div> -->
+            <!-- <div class="service-box">
+              <h4>Download Catalog</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              </div>
+            </div>End Services List -->
 
 
           </div>
 
           <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-             <div class="stack" id="stack">
+            <!-- <img src="assets/img/services.jpg" alt="" class="img-fluid services-img"> -->
+            <div class="stack" id="stack">
+              <div class="i1">
+              <img src="../images/stack-img.jpeg" height="300" width="300" alt="Stack Image">
+            </div>
+
               <h3>STACK</h3>
               <h2> <u>What is Stack?</u></h2>
+            
+            
               <p>
                 A stack is a linear data structure in which the insertion of a new element
                 and removal of an existing element takes place at the same end
@@ -148,41 +205,50 @@
                 stack, which is the last element to be inserted because we can access the
                 elements only on the top of the stack.</p>
             </div>
+            <!-- <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+              </ul> -->
             <div class="Basic" id="Basic">
               <h2> <u>Basic Operations on Stack</u></h2>
+              <div class="i2">
+                <img src="../images/1_i2.jpg" height="300" width="400" alt="Stack Image">
+              </div>
               <p>In order to make manipulations in a stack, there are certain operations
                 provided to us.
+                <br>
                 ● push() to insert an element into the stack <br>
                 ● pop() to remove an element from the stack <br>
                 ● top() Returns the top element of the stack. <br>
                 ● isEmpty() returns true if stack is empty else false. <br>
-                ● size() returns the size of stack <br>
-                Push: <br>
+                ● size() returns the size of stack <br><br>
+
+                <b>Push: </b><br>
+
                 Adds an item to the stack. If the stack is full, then it is said to be an Overflow
                 condition. <br>
-                Algorithm for push: <br>
-                Pop: <br>
+
+
+                <b>Pop:</b><br>
                 Removes an item from the stack. The items are popped in the reversed order
                 in which they are pushed. If the stack is empty, then it is said to be an
                 Underflow condition. <br>
-                Algorithm for pop: <br>
-                Top: <br>
+                <b>Top:</b> <br>
                 Returns the top element of the stack. <br>
-                Algorithm for Top: <br>
-                isEmpty: <br>
+                <b>isEmpty:</b> <br>
                 Returns true if the stack is empty, else false. <br>
-                Algorithm for isEmpty: <br>
               </p>
             
             </div>
             <div class="types" id="types">
               <h2><u>Types of Stacks</u></h2>
-              <p>● Fixed Size Stack: <br> As the name suggests, a fixed size stack has a
+              <p>●<b> Fixed Size Stack</b>: <br> As the name suggests, a fixed size stack has a
                 fixed size and cannot grow or shrink dynamically. If the stack is
                 full and an attempt is made to add an element to it, an overflow
                 error occurs. If the stack is empty and an attempt is made to
                 remove an element from it, an underflow error occurs. <br>
-                ● Dynamic Size Stack: <br> A dynamic size stack can grow or shrink
+                ●<b> Dynamic Size Stack</b>: <br> A dynamic size stack can grow or shrink
                 dynamically. When the stack is full, it automatically increases its
                 size to accommodate the new element, and when the stack is
                 empty, it decreases its size. This type of stack is implemented
@@ -242,7 +308,70 @@
     </div>
   </main>
 
-  
+  <!-- ======= Footer ======= -->
+  <!-- <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Append</span>
+          </a>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>A108 Adam Street</p>
+          <p>New York, NY 535022</p>
+          <p>United States</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+          <p><strong>Email:</strong> <span>info@example.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">Append</strong> <span>All Rights Reserved</span></p>
+      <div class="credits"> -->
+  <!-- All the links in the footer should remain intact. -->
+  <!-- You can delete the links only if you've purchased the pro version. -->
+  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+  <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+  <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>End Footer -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -251,12 +380,18 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
 
-              <h3><img src="/images/logo3.png" alt="">&nbsp;DS<span>.</span></h3>
+              <h3><img src="../images/logo3.png" alt="">&nbsp;DS<span>.</span></h3>
               <p>
                 <strong>Phone:</strong> +91 99999 88888<br>
                 <strong>Email:</strong> xyz@gmail.com<br>
               </p>
-              
+              <!-- <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div> -->
             </div>
           </div>
 
@@ -266,19 +401,71 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-             </ul>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            </ul>
           </div>
 
- 
+          <!-- <div class="col-lg-3 col-md-6 footer-links"> -->
+          <!--<h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+        
+        </div>
+      -->
         </div>
       </div>
 
+      <!-- <div class="container"> -->
+      <!-- <div class="copyright"> -->
+      <!-- &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved -->
+      <!-- </div> -->
+      <!-- <div class="credits"> -->
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      <!-- </div> -->
+      <!-- </div> -->
   </footer>
+  <!-- End of footer -->
 
+  <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  
+  <!-- Preloader -->
+  <!-- <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div> -->
+
+  <!-- Vendor JS Files -->
+  <!-- <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -291,7 +478,6 @@
   <!-- Template Main JS File -->
   <script src="/assets/js/stacktheory.js"></script>
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/script.js"></script>
 
 </body>
 
